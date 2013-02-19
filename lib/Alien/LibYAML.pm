@@ -6,7 +6,7 @@ use warnings FATAL => "all";
 use utf8;
 use parent "Alien::Base";
 
-our $VERSION = 'v0.0.2'; # VERSION
+our $VERSION = 'v0.0.3'; # VERSION
 # ABSTRACT: Build and install libyaml, a C-based YAML parser and emitter
 
 1;
@@ -18,9 +18,9 @@ Alien::LibYAML - Build and install libyaml, a C-based YAML parser and emitter
 
 =head1 SYNOPSIS
 
-my $libyaml = Alien::LibYAML->new;
-say $libyaml->libs;
-say $libyaml->cflags;
+    my $libyaml = Alien::LibYAML->new;
+    say $libyaml->libs;
+    say $libyaml->cflags;
 
 =head1 DESCRIPTION
 
