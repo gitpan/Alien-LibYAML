@@ -1,4 +1,8 @@
 Revision history for Alien-LibYAML
 
+v0.0.2    2013-02-19 14:56:53 America/Chicago
+    - Fixed module name in POD.
+    - Promoted to full release.
+
 v0.0.1    2013-02-19 03:39:00 CST6CDT
     - First version, released on an unsuspecting world.
