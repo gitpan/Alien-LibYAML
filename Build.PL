@@ -36,6 +36,7 @@ my $builder = Alien::Base::ModuleBuild->new(
     'Test::More' => '0'
   },
   'configure_requires' => {
+    'Alien::Base::ModuleBuild' => '0.002',
     'Module::Build' => '0.3601'
   },
   'requires' => {
