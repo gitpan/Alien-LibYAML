@@ -12,7 +12,7 @@ configure_requires:
   Alien::Base::ModuleBuild: 0.004
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.014, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.132830'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,4 +25,4 @@ resources:
   bugtracker: https://github.com/rsimoes/alien-libyaml/issues
   homepage: https://metacpan.org/release/Alien-LibYAML
   repository: git://github.com/rsimoes/alien-libyaml.git
-version: v0.0.6
+version: v0.0.7

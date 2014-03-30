@@ -6,7 +6,7 @@ use warnings FATAL => 'all';
 use utf8;
 use parent qw(Alien::Base);
 
-our $VERSION = 'v0.0.6'; # VERSION
+our $VERSION = 'v0.0.7'; # VERSION
 # ABSTRACT: Build and install libyaml, a C-based YAML parser and emitter
 
 1;
@@ -43,7 +43,7 @@ Richard Simões C<< <rsimoes AT cpan DOT org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 2013 Richard Simões. libyaml written and copyrighted by Kirill
+Copyright © 2014 Richard Simões. libyaml written and copyrighted by Kirill
 Simonov. Both libyaml and this distribution are released under the terms of the
 B<MIT License> and may be modified and/or redistributed under the same or any
 compatible license.
