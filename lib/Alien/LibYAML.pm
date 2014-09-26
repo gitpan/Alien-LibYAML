@@ -6,7 +6,7 @@ use warnings FATAL => 'all';
 use utf8;
 use parent qw(Alien::Base);
 
-our $VERSION = 'v0.0.7'; # VERSION
+our $VERSION = 'v0.1.0'; # VERSION
 # ABSTRACT: Build and install libyaml, a C-based YAML parser and emitter
 
 1;

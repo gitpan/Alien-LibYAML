@@ -3,26 +3,26 @@ abstract: 'Build and install libyaml, a C-based YAML parser and emitter'
 author:
   - 'Richard Simões <rsimoes AT cpan DOT org>'
 build_requires:
-  File::Spec: 0
-  IO::Handle: 0
-  IPC::Open3: 0
-  Module::Build: 0.3601
-  Test::More: 0
+  File::Spec: '0'
+  IO::Handle: '0'
+  IPC::Open3: '0'
+  Module::Build: '0.28'
+  Test::More: '0'
 configure_requires:
-  Alien::Base::ModuleBuild: 0.004
-  Module::Build: 0.3601
+  Alien::Base::ModuleBuild: '0.005'
+  Module::Build: '0.28'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.013, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Alien-LibYAML
 requires:
-  Alien::Base: 0
+  Alien::Base: '0'
   perl: v5.10.0
 resources:
   bugtracker: https://github.com/rsimoes/alien-libyaml/issues
   homepage: https://metacpan.org/release/Alien-LibYAML
   repository: git://github.com/rsimoes/alien-libyaml.git
-version: v0.0.7
+version: v0.1.0
