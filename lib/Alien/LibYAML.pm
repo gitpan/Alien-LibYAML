@@ -1,12 +1,11 @@
 package Alien::LibYAML;
 
-use v5.10;
 use strict;
 use warnings FATAL => 'all';
 use utf8;
 use parent qw(Alien::Base);
 
-our $VERSION = 'v0.1.0'; # VERSION
+our $VERSION = 'v0.1.1'; # VERSION
 # ABSTRACT: Build and install libyaml, a C-based YAML parser and emitter
 
 1;

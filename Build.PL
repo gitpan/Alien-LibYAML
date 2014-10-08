@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 
-use v5.10;
 use strict;
 use warnings FATAL => 'all';
 use utf8;
@@ -14,7 +13,7 @@ my $builder = Alien::Base::ModuleBuild->new(
     dist_abstract => 'Build and install libyaml, a C-based YAML parser and emitter',
     dist_author => 'Richard Simões <rsimoes AT cpan DOT org>',
     dist_version_from => 'lib/Alien/LibYAML.pm',
-    alien_name => 'libyaml',
+    alien_name => 'yaml-0.1',
     alien_repository => {
         protocol => 'http',
         host     => 'pyyaml.org/',
@@ -22,7 +21,7 @@ my $builder = Alien::Base::ModuleBuild->new(
         pattern  => qr{^yaml-.*\.tar\.gz$},
     },
     alien_build_commands => [
-      'patch -p1 < ../../yaml-0_1_6.patch',
+      'patch --binary -p1 < ../../yaml-0_1_6.patch',
       '%c --prefix=%s',
       'make',
       'make install',
@@ -34,7 +33,8 @@ my $builder = Alien::Base::ModuleBuild->new(
     'IO::Handle' => '0',
     'IPC::Open3' => '0',
     'Module::Build' => '0.28',
-    'Test::More' => '0'
+    'Test::More' => '0',
+    'perl' => '5.008'
   },
   'configure_requires' => {
     'Alien::Base::ModuleBuild' => '0.005',
@@ -42,7 +42,7 @@ my $builder = Alien::Base::ModuleBuild->new(
   },
   'requires' => {
     'Alien::Base' => '0',
-    'perl' => 'v5.10.0'
+    'perl' => '5.008'
   },
 );
 
