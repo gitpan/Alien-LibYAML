@@ -28,6 +28,9 @@ my $builder = Alien::Base::ModuleBuild->new(
       'make',
       'make install',
     ],
+    alien_bin_requires => {
+      'Alien::patch' => 0,
+    },
     alien_isolate_dynamic => 1,
     # Prerequisites inserted by DistZilla:
       'build_requires' => {
@@ -39,7 +42,7 @@ my $builder = Alien::Base::ModuleBuild->new(
     'perl' => '5.008'
   },
   'configure_requires' => {
-    'Alien::Base::ModuleBuild' => '0.005',
+    'Alien::Base::ModuleBuild' => '0.006',
     'Module::Build' => '0.28'
   },
   'requires' => {

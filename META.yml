@@ -10,7 +10,7 @@ build_requires:
   Test::More: '0'
   perl: '5.008'
 configure_requires:
-  Alien::Base::ModuleBuild: '0.005'
+  Alien::Base::ModuleBuild: '0.006'
   Module::Build: '0.28'
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142690'
@@ -26,4 +26,4 @@ resources:
   bugtracker: https://github.com/rsimoes/alien-libyaml/issues
   homepage: https://metacpan.org/release/Alien-LibYAML
   repository: git://github.com/rsimoes/alien-libyaml.git
-version: v0.1.2
+version: v0.1.3
