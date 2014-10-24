@@ -7,6 +7,7 @@ META.yml
 README
 lib/Alien/LibYAML.pm
 t/00-compile.t
+t/00_diag.t
 t/01-methods.t
 t/author-pod-spell.t
 t/author-test-eol.t
